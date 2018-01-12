@@ -219,9 +219,9 @@ CGRect IASKCGRectSwap(CGRect rect);
 	}
 }
 
-- (CGSize)preferredContentSize {
-    return [[self view] sizeThatFits:CGSizeMake(320, 2000)];
-}
+// - (CGSize)preferredContentSize {
+//     return [[self view] sizeThatFits:CGSizeMake(320, 2000)];
+// }
 
 - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidAppear:animated];
